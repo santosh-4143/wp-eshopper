@@ -1,0 +1,1360 @@
+@charset "utf-8";
+/* portfolio name : Foreign Shopper */
+/* design by sanjib on 25.03.2016 */
+
+@media screen and (max-width : 320px) {
+
+/*...................................................home page start..............................................*/	
+/* top header section start*/	
+.top_header {
+    background: #373737 none repeat scroll 0 0;
+    float: left;
+    margin-top: 52px;
+    padding: 15px 0;
+    width: 100%;
+}
+.top_header .top_center {
+    float: left;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+/* top header section end*/
+	
+/*header section start*/
+.header_wrapper {
+    float: left;
+    margin:0px;
+    padding: 0;
+    width: 100%;
+}
+.header_wrapper .logo{
+	display:none;	
+}
+/*header section end*/
+
+/*banner section start*/
+.carousel-caption{
+	display:none;	
+}
+/*banner section end*/
+
+/*shipping section start*/
+.pad_rt {
+    padding-right: 0px !important;
+}
+.shipping_bottom .bottom_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_top {
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_bottom .right_bottom_left {
+    float: left;
+    margin: 0;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_bottom_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/*shipping section end*/
+
+/*product section start*/
+.product_wrapper .category_wrapper {
+    float: left;
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%;
+}
+.product_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.product_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.product_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.product_wrap .product_content {
+    float: left;
+    margin: 30px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.product_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -28px !important;
+}
+.product_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -28px !important;
+}
+.seller_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.seller_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.seller_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.seller_wrap .seller_content {
+    float: left;
+    margin: 30px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.seller_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -28px !important;
+}
+.seller_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -28px !important;
+}
+/*product section end*/
+
+/*blog section start*/
+.blog_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.blog_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.blog_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.blog_wrap .blog_content {
+    float: left;
+    margin: 40px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.blog_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -38px !important;
+}
+.blog_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -38px !important;
+}
+/*blog section end*/
+
+/*brand section start*/
+.brand_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+.brand_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -75px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 75px;
+}
+.brand_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -75px;
+    top: 15px;
+    width: 75px;
+}
+.brand_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -30px !important;
+}
+.brand_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -30px !important;
+}
+/*brand section end*/
+
+/*popular section start*/
+.popular_content .scroll-text {
+    height: 370px;
+    overflow: hidden;
+    width: 100%;
+}
+/*popular section end*/
+/*...................................................home page end..............................................*/
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 479px) { 
+/*...................................................home page start..............................................*/	
+/* top header section start*/	
+.top_header {
+    background: #373737 none repeat scroll 0 0;
+    float: left;
+    margin-top: 52px;
+    padding: 15px 0;
+    width: 100%;
+}
+.top_header .top_center {
+    float: left;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+/* top header section end*/
+	
+/*header section start*/
+.header_wrapper {
+    float: left;
+    margin:0px;
+    padding: 0;
+    width: 100%;
+}
+.header_wrapper .logo{
+	display:none;	
+}
+/*header section end*/
+
+/*banner section start*/
+.carousel-caption{
+	display:none;	
+}
+/*banner section end*/
+
+/*shipping section start*/
+.pad_rt {
+    padding-right: 0px !important;
+}
+.shipping_bottom .bottom_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_top {
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_bottom .right_bottom_left {
+    float: left;
+    margin: 0;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_bottom_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/*shipping section end*/
+
+/*product section start*/
+.product_wrapper .category_wrapper {
+    float: left;
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%;
+}
+.product_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.product_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.product_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.product_wrap .product_content {
+    float: left;
+    margin: 30px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.product_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -28px !important;
+}
+.product_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -28px !important;
+}
+.seller_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.seller_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.seller_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.seller_wrap .seller_content {
+    float: left;
+    margin: 30px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.seller_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -28px !important;
+}
+.seller_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -28px !important;
+}
+/*product section end*/
+
+/*blog section start*/
+.blog_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.blog_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.blog_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.blog_wrap .blog_content {
+    float: left;
+    margin: 40px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.blog_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -38px !important;
+}
+.blog_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -38px !important;
+}
+/*blog section end*/
+
+/*brand section start*/
+.brand_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+.brand_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -75px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 75px;
+}
+.brand_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -75px;
+    top: 15px;
+    width: 75px;
+}
+.brand_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -30px !important;
+}
+.brand_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -30px !important;
+}
+/*brand section end*/
+
+/*popular section start*/
+.popular_content .scroll-text {
+    height: 370px;
+    overflow: hidden;
+    width: 100%;
+}
+/*popular section end*/
+/*...................................................home page end..............................................*/
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) { 
+
+/*...................................................home page start..............................................*/	
+/* top header section start*/	
+.top_header {
+    background: #373737 none repeat scroll 0 0;
+    float: left;
+    margin-top: 52px;
+    padding: 15px 0;
+    width: 100%;
+}
+.top_header .top_center {
+    float: left;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+/* top header section end*/
+	
+/*header section start*/
+.header_wrapper {
+    float: left;
+    margin:0px;
+    padding: 0;
+    width: 100%;
+}
+.header_wrapper .logo{
+	display:none;	
+}
+.smallogo img {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 30%;
+}
+/*header section end*/
+
+/*banner section start*/
+.carousel-caption {
+ 	display:none;
+}
+/*banner section end*/
+
+/*shipping section start*/
+.pad_rt {
+    padding-right: 0px !important;
+}
+.shipping_top .shipping_box {
+    background: #f3c369 none repeat scroll 0 0;
+    box-shadow: 2px 5px 3px 0 #ccc;
+    float: left;
+    margin: 1%;
+    padding: 20px 10px;
+    width: 48%;
+}
+.shipping_bottom .bottom_left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_top {
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_bottom .right_bottom_left {
+    float: left;
+    margin: 0;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.shipping_bottom .bottom_right .right_bottom_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/*shipping section end*/
+
+/*product section start*/
+.product_wrapper .category_wrapper {
+    float: left;
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%;
+}
+.product_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.product_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.product_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.product_wrap .product_content {
+    float: left;
+    margin: 30px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.product_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -28px !important;
+}
+.product_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -28px !important;
+}
+.seller_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.seller_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.seller_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.seller_wrap .seller_content {
+    float: left;
+    margin: 30px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.seller_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -28px !important;
+}
+.seller_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -28px !important;
+}
+/*product section end*/
+
+/*blog section start*/
+.blog_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.blog_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+.blog_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 30px;
+}
+.blog_wrap .blog_content {
+    float: left;
+    margin: 40px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.blog_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -38px !important;
+}
+.blog_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -38px !important;
+}
+/*blog section end*/
+
+/*brand section start*/
+.brand_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+.brand_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -75px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 75px;
+}
+.brand_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -75px;
+    top: 15px;
+    width: 75px;
+}
+.brand_content .nbs-flexisel-nav-left {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_previous.png") no-repeat scroll 0 0;
+    right: 60px;
+    top: -30px !important;
+}
+.brand_content .nbs-flexisel-nav-right {
+    background: rgba(0, 0, 0, 0) url("../images/icon/button_next.png") no-repeat scroll 0 0;
+    right: 10px;
+    top: -30px !important;
+}
+/*brand section end*/
+/*...................................................home page end..............................................*/
+}
+
+@media screen and (min-width: 768px) and (max-width:780px) { 
+/*..............................home page start................................*/
+/* top header section start*/	
+.top_header {
+    background: #373737 none repeat scroll 0 0;
+    float: left;
+    margin-top: 52px;
+    padding: 15px 0;
+    width: 100%;
+}
+.top_header .top_center {
+    float: left;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+/* top header section end*/
+	
+/*header section start*/
+.header_wrapper {
+    float: left;
+    margin:0px;
+    padding: 0;
+    width: 100%;
+}
+.header_wrapper .logo{
+	display:none;	
+}
+.smallogo img {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 30%;
+}
+/*header section end*/
+/*..............................home page start................................*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+/*...................................................home page start..............................................*/
+/* top header section start*/
+.top_right ul li {
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0;
+}
+/* top header section end*/
+
+/*header section start*/
+.navbar-nav > li {
+    float: left;
+    margin-right: 27px;
+    padding: 20px 0 10px;
+}
+/*header section end*/
+
+/*banner section start*/
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+    bottom: 25%;
+    display: block;
+    left: 10%;
+    margin: 0;
+    padding: 25px;
+    position: absolute;
+    top: 25%;
+    width: 60%;
+}
+.banner_left_arrow img {
+    margin: 150px 40px 0;
+    padding: 0;
+    width: 30%;
+}
+.banner_right_arrow img {
+    float: right;
+    margin: 150px 40px 0;
+    padding: 0;
+    width: 30%;
+}
+/*banner section end*/
+
+/*shipping section start*/
+.shipping_bottom .bottom_right .right_top {
+    float: left;
+    margin: 0;
+    padding-bottom: 3px;
+    width: 100%;
+}
+/*shipping section end*/
+
+/*product section start*/
+.module_content .scroll-text {
+    height: 580px;
+    overflow: hidden;
+    width: 100%;
+}
+.product_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+.product_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -240px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 240px;
+}
+.product_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -140px;
+    top: 15px;
+    width: 140px;
+}
+.seller_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+.seller_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -240px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 240px;
+}
+.seller_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -140px;
+    top: 15px;
+    width: 140px;
+}
+/*product section end*/
+
+/*blog section start*/
+.blog_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+.blog_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -240px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 240px;
+}
+.blog_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -140px;
+    top: 15px;
+    width: 140px;
+}
+.blog_box .blog_text {
+    float: left;
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+}
+/*blog section end*/
+
+/*brand section start*/
+.brand_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+.brand_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -250px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 250px;
+}
+.brand_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -155px;
+    top: 15px;
+    width: 155px;
+}
+/*brand section end*/
+
+/*popular section start*/
+.popular_content .scroll-text {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+}
+/*popular section end*/
+
+/*footer section start*/
+.footer_wrap .contact {
+    float: left;
+    margin: 0 0 55px;
+    padding: 0;
+    width: 100%;
+}
+/*footer section end*/
+/*...................................................home page end..............................................*/
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+/*...................................................home page start..............................................*/
+/* top header section start*/
+.top_right ul li {
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0;
+}
+/* top header section end*/
+
+/*header section start*/
+.navbar-nav > li {
+    float: left;
+    margin-right: 24px;
+    padding: 20px 0 10px;
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_left_arrow img {
+    margin: 150px 40px 0;
+    padding: 0;
+    width: 30%;
+}
+.banner_right_arrow img {
+    float: right;
+    margin: 150px 40px 0;
+    padding: 0;
+    width: 30%;
+}
+/*banner section end*/
+
+/*shipping section start*/
+.shipping_bottom .bottom_right .right_top {
+    float: left;
+    margin: 0;
+    padding-bottom: 8px;
+    width: 100%;
+}
+/*shipping section end*/
+
+/*product section start*/
+.module_content .scroll-text {
+    height: 580px;
+    overflow: hidden;
+    width: 100%;
+}
+.product_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+.product_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -320px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 320px;
+}
+.product_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -220px;
+    top: 15px;
+    width: 220px;
+}
+.seller_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+.seller_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -320px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 320px;
+}
+.seller_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -220px;
+    top: 15px;
+    width: 220px;
+}
+/*product section end*/
+
+/*blog section start*/
+.blog_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+.blog_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -320px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 320px;
+}
+.blog_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -220px;
+    top: 15px;
+    width: 220px;
+}
+.blog_box .blog_text {
+    float: left;
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+}
+/*blog section end*/
+
+/*brand section start*/
+.brand_heading h6 {
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-family: 'sansationregular';
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+.brand_heading h6::before {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: -320px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 320px;
+}
+.brand_heading h6::after {
+    background: #d0d0d0 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -220px;
+    top: 15px;
+    width: 220px;
+}
+/*brand section end*/
+/*...................................................home page end..............................................*/
+}
